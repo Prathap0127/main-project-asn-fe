@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About'
 import Products from './components/Products';
 import Contact from './components/Contact';
+import Login from './components/Login';
 
 function App() {
   return <div>
@@ -14,6 +15,7 @@ function App() {
         <Route path='/about' element=<About/>/>
         <Route path='/products' element=<Products/>/>
         <Route path='/contact' element=<Contact/> />
+        <Route path='/login'element=<Login/> />
 
         <Route path='*' element={<Navigate to='/home'/>}/>
 

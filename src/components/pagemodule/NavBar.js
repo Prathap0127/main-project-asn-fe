@@ -42,14 +42,16 @@ function NavBar() {
               <Button variant="outline-success">Search</Button>
             </Form>
             <NavDropdown title=<i class="fa fa-user-circle-o" aria-hidden="true"></i> id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <LinkContainer to='/login'>
+              <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
+              </LinkContainer>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Accouts</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Logout
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
